@@ -1,0 +1,132 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #111;
+    color: #fff;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.container>h1 {
+    font-size: 7rem;
+    text-align: center;
+    background: linear-gradient(to right, #1100ff, rgba(233, 14, 14, 0.801));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+
+
+}
+
+.container>h2 {
+    font-size: 2.5rem;
+    background: linear-gradient(to right, #1100ff, rgba(233, 14, 14, 0.801));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+
+
+.skills {
+    color: white;
+    margin: auto;
+    align-content: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.container-skils {
+    margin: 10px 0px;
+}
+
+.html {
+
+    width: 90%;
+    background: linear-gradient(to right, #1100ff88, rgba(233, 14, 14, 0.801));
+
+}
+
+.css {
+    width: 80%;
+    background: linear-gradient(to right, #1100ff88, rgba(233, 14, 14, 0.801));
+
+}
+
+.js {
+
+    width: 65%;
+    background: linear-gradient(to right, #1100ff88, rgba(233, 14, 14, 0.801));
+
+}
+
+.php {
+    width: 60%;
+    background: linear-gradient(to right, #1100ff88, rgba(233, 14, 14, 0.801));
+
+
+}
+
+.me {
+    margin-top: 18px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 60px 50px 50px 50px;
+    font-size: 1.5rem;
+    margin: 20px;
+    text-align: justify;
+}
+
+.me>h1 {
+    font-size: 4rem;
+    margin-bottom: 20px;
+    background: linear-gradient(to right, #1100ff88, rgba(233, 14, 14, 0.801));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.level>h1 {
+    font-size: 4rem;
+    margin-bottom: 20px;
+    background: linear-gradient(to right, #1100ff88, rgba(233, 14, 14, 0.801));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.level {
+    margin-top: 18px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 100px;
+}
+
+.sub {
+    text-align: center;
+    font-size: 4rem;
+    margin-bottom: 20px;
+    background: linear-gradient(to right, #1100ff88, rgba(233, 14, 14, 0.801));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+p {
+    margin: 20px 0px;
+}
