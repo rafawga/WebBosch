@@ -4,7 +4,6 @@
   --primary-color-darker: rgb(9, 48, 56);
 }
 
-
 * {
   box-sizing: border-box;
   outline: 0;
@@ -58,3 +57,19 @@ form button:hover {
   background: var(--primary-color-darker);
 }
 
+p{
+  font-weight: bolder;
+  font-size: 30px;
+}
+
+.corR{
+  color: red;
+}
+
+.corG{
+  color: green;
+}
+
+.corY{
+  color: rgb(199, 187, 18);
+}
