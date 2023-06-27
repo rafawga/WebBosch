@@ -1,17 +1,22 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Gerador de Senhas</title>
   <link rel="stylesheet" href="style.css">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha384-vtXRMe3mGCbOeY7l30aIg8H9p3GdeSe4IFlP6G8JMa7o7lXvnz3GFKzPxzJdPfGK"
+    crossorigin="anonymous"></script>
+
 </head>
 
 <body>
   <section class="container">
-    <h1>Gerador de Senhas</h1>
-    <p id="senhaGerada"></p>
+    <h1>Gerador de Senhas</h1>.
+    <p class="senha" id="senhaGerada"></p>
 
     <form id="senhaForm" onsubmit="exibirValores(); return false;">
       <label for="caracteres">Quantidade de Caracteres:</label>
@@ -29,13 +34,14 @@
       <label for="simbol">Adicionar símbolos:</label>
       <input type="checkbox" name="Adicionar símbolos" id="simbol">
 
-      <input type="button" value="Exibir Valores" onclick="exibirValores()">
+      <input type="button" value="Exibir Valores" id="botao" onclick="exibirValores()">
     </form>
 
     <div id="valores"></div>
   </section>
 
   <script src="main.js"></script>
+ 
 </body>
 
 </html>
