@@ -6,7 +6,7 @@ function exibirValores() {
   var incluirSimbolos = document.getElementById("simbol").checked;
   var forte = 0;
 
-  var caracteresPermitidos = '';
+  var caracteresPermitidos = ''; 
   if (incluirMaiusculas) {
     caracteresPermitidos += "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
     forte = forte + 1;
